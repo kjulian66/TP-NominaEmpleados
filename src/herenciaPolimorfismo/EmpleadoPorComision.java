@@ -27,6 +27,13 @@ public class EmpleadoPorComision extends Empleado {
 	public void establecerTarifaDeComision(Double tarifaDeComision) {
 		this.tarifaDeComision = tarifaDeComision;
 	}
+	
+	@Override
+	public String toString() {
+		return super.toString() + "\n" + 
+				" Ingreso: " + ingresos() + 
+				"\n Ingreso mas complementos: " + ingresosMasComplementos();
+	}
 
 	@Override
 	public Double ingresos() {

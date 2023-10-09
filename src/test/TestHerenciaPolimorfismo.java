@@ -20,7 +20,7 @@ public class TestHerenciaPolimorfismo {
 
 		Empleado EA = new EmpleadoAsalariado("Julian", "Bianchi", "438912042012", 1500.00);
 		Empleado EC = new EmpleadoPorComision("Pedro", "Sanchez", "574938012392", 150.00, 10.00);
-		Empleado EH = new EmpleadoPorHora("Raul", "Gomez", "438912042012", 50.00, 45.00);
+		Empleado EH = new EmpleadoPorHora("Raul", "Gomez", "483924893212", 50.00, 45.00);
 		Empleado EBC = new EmpleadoBaseMasComision("Miriam", "Perez", "574938012392", 150.00, 10.00, 750.00);
 		Empleado TP = new TrabajadorPorPiezas("Sofia", "Martinez", "843924839212", 1500.00, 15);
 

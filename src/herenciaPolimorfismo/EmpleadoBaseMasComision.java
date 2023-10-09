@@ -19,13 +19,6 @@ public class EmpleadoBaseMasComision extends EmpleadoPorComision {
 	}
 
 	@Override
-	public String toString() {
-		return super.toString() + "\n" + 
-				" Ingreso: " + ingresos() + 
-				"\n Ingreso mas complementos: " + ingresosMasComplementos();
-	}
-
-	@Override
 	public Double ingresos() {
 		return (this.obtenerTarifaDeComision() * this.obtenerVentasBrutas()) + this.salarioBase;
 	}
